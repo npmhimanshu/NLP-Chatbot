@@ -39,7 +39,7 @@ It also features a dynamic web dashboard built with FastAPI and Plotly, allowing
 nlp_chatbot/
 │
 ├── app/
-│   ├── __init__.py    # Package marker
+│   ├── __init__.py        # Package marker
 
 │   ├── main.py            # FastAPI app
 
@@ -50,6 +50,7 @@ nlp_chatbot/
 │   └── templates/
 │       └── index.html     # Dashboard HTML page
 │
+
 ├── requirements.txt
 
 └── README.md
@@ -91,27 +92,6 @@ The bot returns a response from the matched intent.
 
 The home page / displays a Plotly bar chart summarizing user queries by intent.
 
-📄 Sample intents.json
-{
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
-      "responses": ["Hello! How can I help you?", "Hi there!"]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you", "Good night"],
-      "responses": ["Goodbye!", "See you later!"]
-    },
-    {
-      "tag": "help",
-      "patterns": ["Can you help me?", "I need assistance", "Help me"],
-      "responses": ["Sure! What do you need help with?", "I am here to assist you!"]
-    }
-  ]
-}
-
 🚀 Future Enhancements
 ---
 🧠 Machine learning-based intent classification for smarter responses.
@@ -122,16 +102,6 @@ The home page / displays a Plotly bar chart summarizing user queries by intent.
 
 📊 Advanced dashboards showing trends, sentiment, and response quality.
 
-📷 Screenshots
-
-Dashboard Home Page
-
-
-Chat API Response Example
-
-{
-  "response": "Hello! How can I help you?"
-}
 
 🔗 References
 ---
@@ -140,5 +110,6 @@ FastAPI Documentation
 spaCy NLP Library
 
 Plotly Python
+
 
 
