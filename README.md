@@ -39,6 +39,7 @@ It also features a dynamic web dashboard built with FastAPI and Plotly, allowing
 nlp_chatbot/
 │
 ├── app/
+
 │   ├── __init__.py        # Package marker
 
 │   ├── main.py            # FastAPI app
@@ -48,6 +49,7 @@ nlp_chatbot/
 │   ├── intents.json       # Predefined intents
 
 │   └── templates/
+
 │       └── index.html     # Dashboard HTML page
 │
 
@@ -110,6 +112,7 @@ FastAPI Documentation
 spaCy NLP Library
 
 Plotly Python
+
 
 
 
