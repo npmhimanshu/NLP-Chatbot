@@ -1,12 +1,14 @@
 🤖 Intelligent NLP Chatbot with Dashboard
-📄 Project Description
+---
 
+📄 Project Description
+---
 The Intelligent NLP Chatbot is a Python-based web application that understands and responds to user queries using Natural Language Processing (NLP). It leverages spaCy for text processing and pattern matching, providing an interactive chatbot experience.
 
 It also features a dynamic web dashboard built with FastAPI and Plotly, allowing visualization of user interactions and query trends for better analytics.
 
 ✨ Features
-
+---
 💬 Interactive Chatbot: Handles greetings, help requests, and other predefined intents.
 
 🧠 NLP-Based Responses: Uses spaCy to process and understand user messages.
@@ -18,7 +20,7 @@ It also features a dynamic web dashboard built with FastAPI and Plotly, allowing
 🔧 Extensible: Can be integrated with Telegram/Discord or upgraded with ML-based intent classification.
 
 🛠️ Technologies Used
-
+---
 🐍 Python 3.x
 
 ⚡ FastAPI – Web framework for APIs and HTML pages
@@ -69,7 +71,7 @@ python -m uvicorn app.main:app --reload
 }
 
 🧩 How It Works
-
+---
 User sends a message to /chat/.
 
 chatbot.py processes the message using spaCy and matches it to predefined intents.
@@ -100,7 +102,7 @@ The home page / displays a Plotly bar chart summarizing user queries by intent.
 }
 
 🚀 Future Enhancements
-
+---
 🧠 Machine learning-based intent classification for smarter responses.
 
 📲 Real-time integration with Telegram/Discord.
@@ -121,9 +123,10 @@ Chat API Response Example
 }
 
 🔗 References
-
+---
 FastAPI Documentation
 
 spaCy NLP Library
 
 Plotly Python
+
