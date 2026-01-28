@@ -33,21 +33,31 @@ It also features a dynamic web dashboard built with FastAPI and Plotly, allowing
 
 🚀 Uvicorn – ASGI server to run FastAPI
 
+
+
 📁 Project Structure
 nlp_chatbot/
 │
 ├── app/
-│   ├── __init__.py        # Package marker
+│   ├── __init__.py    # Package marker
+
 │   ├── main.py            # FastAPI app
+
 │   ├── chatbot.py         # NLP chatbot logic
+
 │   ├── intents.json       # Predefined intents
+
 │   └── templates/
 │       └── index.html     # Dashboard HTML page
 │
 ├── requirements.txt
+
 └── README.md
 
+
+
 ⚡ Setup Instructions
+---
 1️⃣ Clone the repository
 git clone <your-repo-url>
 cd nlp_chatbot
@@ -59,8 +69,9 @@ python -m spacy download en_core_web_sm
 3️⃣ Run the application
 python -m uvicorn app.main:app --reload
 
-4️⃣ Access the app
 
+4️⃣ Access the app
+---
 🌐 Dashboard/Home Page: http://127.0.0.1:8000/
 
 💬 Chatbot API: POST request to http://127.0.0.1:8000/chat/
@@ -129,4 +140,5 @@ FastAPI Documentation
 spaCy NLP Library
 
 Plotly Python
+
 
