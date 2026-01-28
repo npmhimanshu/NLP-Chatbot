@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NLP Chatbot Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>NLP Chatbot Dashboard</h1>
+    <div id="chart"></div>
+
+    <script>
+        var data = [{
+            x: ['Greeting', 'Help', 'Goodbye'],
+            y: [10, 5, 3],
+            type: 'bar'
+        }];
+
+        var layout = {
+            title: 'User Queries by Intent',
+            xaxis: { title: 'Intent' },
+            yaxis: { title: 'Count' }
+        };
+
+        Plotly.newPlot('chart', data, layout);
+    </script>
+</body>
+</html>
