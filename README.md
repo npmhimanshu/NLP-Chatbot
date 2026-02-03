@@ -3,8 +3,7 @@
 
 📄 Project Description
 ---
-The Intelligent NLP Chatbot is a Python-based web application that understands and responds to user queries using Natural Language Processing (NLP). It leverages spaCy for text processing and pattern matching, providing an interactive chatbot experience.one
-
+The Intelligent NLP Chatbot is a Python-based web application that understands and responds to user queries using Natural Language Processing (NLP). It leverages spaCy for text processing and pattern matching, providing an interactive chatbot experience.
 It also features a dynamic web dashboard built with FastAPI and Plotly, allowing visualization of user interactions and query trends for better analytics.
 
 ✨ Features
@@ -112,6 +111,7 @@ FastAPI Documentation
 spaCy NLP Library
 
 Plotly Python
+
 
 
 
